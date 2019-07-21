@@ -5,11 +5,15 @@ These scripts have been produced using MATLAB R2015a.
 
 ## OUTLINE OF SCRIPTS
 There are two scripts per instrument -
+
 (1) An import data script (e.g. importWIBS4M.m)
 This is the function used to import data for analysis,there is one import data script per UV-LIF instrument.
+
 (2) An analysis script (e.g. WIBS4analysis.m)
 This is the script used to analyse the UV-LIF data, there are three analysis scripts in total.
 
 ## STEPS FOR USAGE:
+
 (1) Within the analysis script import data and set the path for wherever the FT and acquisition data is stored (using e.g. importStuffWIBS4M.m file) 
+
 (2) Assign number of standard deviations required within the analysis scripts (e.g. WIBS4analysis.m file)
